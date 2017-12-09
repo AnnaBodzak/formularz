@@ -1,0 +1,199 @@
+body {
+    font-family: verdana;
+    margin: 0;
+}
+
+.container {
+    width: 600px;
+   height: 100vh;
+    position: relative;
+
+}
+
+.figure {
+    position: absolute;
+}
+
+.one {
+    left: 0;
+}
+
+.two {
+    left: 200px;
+    top: -50px;
+}
+
+.three {
+    left: 450px;
+    top: -15px;
+}
+
+.four {
+    top: 250px;
+    left: 80px;
+}
+
+.five {
+    top: 180px;
+    left: 300px;
+}
+
+.six {
+    top: 250px;
+    left: 600px;
+}
+
+.seven {
+    top: 450px;
+
+}
+
+.eight {
+    top: 450px;
+    left: 300px;
+}
+
+.nine {
+    top: 450px;
+    left: 500px;
+}
+
+.square {
+    width: 197px;
+    height: 197px;
+    position: absolute;
+    border: 3px solid white;
+}
+
+.letter {
+    font-weight: bolder;
+    font-size: 250px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.w-letter {
+    font-weight: bolder;
+    font-size: 250px;
+    position: absolute;
+    top: 390px;
+    right: 10px;
+}
+
+.Bitter-Lemon {
+    background-color: rgb(224, 219, 126)
+}
+
+.violet {
+    background-color: rgb(109, 64, 125);
+}
+
+.bioactive {
+    background-color: rgb(91, 93, 128);
+}
+
+.blue {
+    background-color: blue;
+}
+
+.vital-midol {
+    background-color: rgb(250, 52, 184);
+}
+
+.forever-21 {
+    background-color: rgb(232, 104, 209);
+}
+
+.l-Bitter-Lemon {
+    color: rgb(224, 219, 126)
+}
+
+.l-violet {
+    color: rgb(109, 64, 125);
+}
+
+.l-bioactive {
+    color: rgb(91, 93, 128);
+}
+
+
+.l-vital-midol {
+    color: rgb(250, 52, 184);
+}
+
+.l-forever-21 {
+    color: rgb(232, 104, 209);
+}
+
+
+/*
+.content {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(91, 93, 128);
+    position: fixed;
+    right: 0;
+
+}
+*/
+
+
+/*
+.content a {
+    font-size: 50px;
+
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+*/
+
+.form {
+    position: absolute;
+    background-color: white;
+    padding: 30px;
+    font-size: 13px;
+
+    width: 400px;
+    height: 500px;
+    right: 200px;
+    top: 20px;
+    margin: auto:
+}
+
+
+.form label {
+    font-size: 20px;
+}
+
+.male {
+    font-size: 12px;
+    float: left;
+}
+
+.guzik {
+    width: 197px;
+    height: 197px;
+    border: 3px solid white;
+    position: absolute;
+    right: 200px;
+    top: 480px;
+}
+
+
+.tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    font-size: 40px;
+    right: -10px;
+    top: 640px;
+    z-index: 1;
+}
+
+.guzik:hover + .tooltiptext {
+    visibility: visible;
+}
