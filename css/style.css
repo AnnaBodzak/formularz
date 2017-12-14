@@ -130,34 +130,13 @@ body {
 }
 
 
-/*
-.content {
-    width: 400px;
-    height: 400px;
-    background-color: rgb(91, 93, 128);
-    position: fixed;
-    right: 0;
 
-}
-*/
-
-
-/*
-.content a {
-    font-size: 50px;
-
-    text-transform: uppercase;
-    font-weight: bolder;
-
-}
-*/
 
 .form {
     position: absolute;
     background-color: white;
-    padding: 30px;
+    padding: 10px;
     font-size: 13px;
-
     width: 400px;
     height: 500px;
     right: 200px;
@@ -165,9 +144,22 @@ body {
     margin: auto:
 }
 
+form > input,
+input[type="text"],
+select,
+textarea {
+    width: 200px;
+    height: 20px;
+    border: 1px solid rgb(0,0,0);
+    outline: none;
+    
+}
+
+textarea {
+    height: 100px; }
 
 .form label {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .male {
@@ -175,7 +167,7 @@ body {
     float: left;
 }
 
-.guzik {
+input[type="submit"]{
     width: 197px;
     height: 197px;
     border: 3px solid white;
@@ -194,6 +186,15 @@ body {
     z-index: 1;
 }
 
-.guzik:hover + .tooltiptext {
+input[type="submit"]:hover + .tooltiptext {
     visibility: visible;
+}
+
+form > input:focus,
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    background-color: rgb(224, 219, 126);
+    outline: none;
+    
 }
