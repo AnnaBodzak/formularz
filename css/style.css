@@ -5,9 +5,8 @@ body {
 
 .container {
     width: 600px;
-   height: 100vh;
+    height: 100vh;
     position: relative;
-
 }
 
 .figure {
@@ -130,8 +129,6 @@ body {
 }
 
 
-
-
 .form {
     position: absolute;
     background-color: white;
@@ -150,13 +147,13 @@ select,
 textarea {
     width: 200px;
     height: 20px;
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid rgb(0, 0, 0);
     outline: none;
-    
 }
 
 textarea {
-    height: 100px; }
+    height: 100px;
+}
 
 .form label {
     font-size: 16px;
@@ -167,13 +164,16 @@ textarea {
     float: left;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     width: 197px;
     height: 197px;
     border: 3px solid white;
     position: absolute;
     right: 200px;
     top: 480px;
+    color: rgb(109, 64, 125);
+    font-size: 30px;
+
 }
 
 
@@ -196,5 +196,5 @@ select:focus,
 textarea:focus {
     background-color: rgb(224, 219, 126);
     outline: none;
-    
+
 }
